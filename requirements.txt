@@ -1,0 +1,16 @@
+# GUI
+PySide6>=6.6.0
+
+# Source separation engine
+demucs>=4.0.1
+
+# PyTorch CPU backend (Demucs dependency; pinned to CPU wheels via install step)
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# Bundled ffmpeg binary (no system install required)
+imageio-ffmpeg>=0.4.9
+
+# Audio I/O helpers
+soundfile>=0.12.1
+numpy>=1.24.0

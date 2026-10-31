@@ -1,0 +1,55 @@
+# ---- Audio / separation output ----
+# Separated stems and any audio the user drops in or exports.
+output/
+Output/
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.aac
+*.ogg
+*.wma
+
+# ---- Python ----
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ---- PyInstaller / packaging build artifacts ----
+build/
+dist/
+*.manifest
+
+# Inno Setup installer output (the generated setup.exe)
+Output/
+
+# ---- Models / caches (downloaded at runtime, not source) ----
+*.th
+*.pt
+*.ckpt
+
+# ---- Debug / troubleshooting logs created during development ----
+*.log
+gitcheck.txt
+gitinit.txt
+staged_files.txt
+commit_out.txt
+result.txt
+cfg.txt
+COMMIT_MSG.tmp
+torch_ok.txt
+scan_result.txt
+rebuild_status.txt
+scan_corrupt.py
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
